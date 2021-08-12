@@ -16,6 +16,7 @@ namespace repro1
             IReadOnlyList<object> list = new List<object>();
             var a = list.FirstOrDefault();
             Console.WriteLine("Hello World!");
+
         }
         public async void Test()
         {
